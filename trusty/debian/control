@@ -6,7 +6,7 @@ Priority: extra
 Build-Depends: cmake,
                pkg-config,
                debhelper (>= 7.0.50~),
-               libgazebo7-mentor2-dev (>= 7.99.99+mentor2v1.0-1),
+               libgazebo7-mentor2-dev,
                protobuf-compiler,
 	       libprotobuf-dev,
                libboost1.54-dev,
@@ -20,7 +20,7 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends},
-       libgazebo7-mentor2--dev (>= 7.99.99+mentor2v1.0-1),
+       libgazebo7-mentor2-dev,
        libprotobuf-dev,
        libboost1.54-dev,
        libqt4-dev
