@@ -1,3 +1,9 @@
+mentor2 (0.1.7-1~trusty) trusty; urgency=medium
+
+  * mentor2 0.1.7-1 release
+
+ -- Ian Chen <ichen@osrfoundation.org>  Sun, 17 Apr 2016 20:05:43 -0700
+
 mentor2 (0.1.6-1~trusty) trusty; urgency=medium
 
   * mentor2 0.1.6-1 release
